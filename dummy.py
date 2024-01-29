@@ -1,4 +1,7 @@
 a = 1
 b = 0
-c = a/b
+if b == 0:
+    print("Can't divide by zero")
+else:
+    c = a/b
 
